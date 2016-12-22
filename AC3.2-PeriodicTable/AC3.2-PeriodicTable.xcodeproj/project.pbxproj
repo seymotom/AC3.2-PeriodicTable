@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE0FFEAA1E0AFE6400C663F3 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0FFEA91E0AFE6400C663F3 /* APIManager.swift */; };
+		DE1303461E0AF44D009CD62D /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE1303441E0AF44D009CD62D /* Model.xcdatamodeld */; };
+		DE13034F1E0AF739009CD62D /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE13034E1E0AF739009CD62D /* DataController.swift */; };
+		DE1303511E0AF7BB009CD62D /* Element+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1303501E0AF7BB009CD62D /* Element+Extension.swift */; };
+		DE2C12AE1E0AD902002E3C97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2C12AD1E0AD902002E3C97 /* AppDelegate.swift */; };
+		DE2C12B31E0AD902002E3C97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2C12B11E0AD902002E3C97 /* Main.storyboard */; };
+		DE2C12B51E0AD902002E3C97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE2C12B41E0AD902002E3C97 /* Assets.xcassets */; };
+		DE2C12B81E0AD902002E3C97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2C12B61E0AD902002E3C97 /* LaunchScreen.storyboard */; };
+		DE2C12C01E0AD9CB002E3C97 /* PeriodicTableCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2C12BF1E0AD9CB002E3C97 /* PeriodicTableCollectionViewController.swift */; };
+		DE2C12C31E0ADC4E002E3C97 /* ElementCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2C12C21E0ADC4E002E3C97 /* ElementCollectionViewCell.swift */; };
+		DE2C12C51E0ADD47002E3C97 /* ElementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2C12C41E0ADD47002E3C97 /* ElementView.swift */; };
+		DE2C12CA1E0ADE48002E3C97 /* ElementView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE2C12C91E0ADE48002E3C97 /* ElementView.xib */; };
+		DE2C12CC1E0ADF28002E3C97 /* ElementCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE2C12CB1E0ADF28002E3C97 /* ElementCollectionViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DE0FFEA91E0AFE6400C663F3 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APIManager.swift; path = "../../../AC3.2-MidtermElements/AC3.2-MidtermElements/AC3.2-MidtermElements/APIManager.swift"; sourceTree = "<group>"; };
+		DE1303451E0AF44D009CD62D /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		DE13034E1E0AF739009CD62D /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataController.swift; path = "../../../AC3.2-CoreDataArticles/CoreDataArticles/DataController.swift"; sourceTree = "<group>"; };
+		DE1303501E0AF7BB009CD62D /* Element+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Element+Extension.swift"; sourceTree = "<group>"; };
+		DE2C12AA1E0AD902002E3C97 /* AC3.2-PeriodicTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AC3.2-PeriodicTable.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE2C12AD1E0AD902002E3C97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE2C12B21E0AD902002E3C97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE2C12B41E0AD902002E3C97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE2C12B71E0AD902002E3C97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE2C12B91E0AD902002E3C97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE2C12BF1E0AD9CB002E3C97 /* PeriodicTableCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeriodicTableCollectionViewController.swift; sourceTree = "<group>"; };
+		DE2C12C21E0ADC4E002E3C97 /* ElementCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElementCollectionViewCell.swift; sourceTree = "<group>"; };
+		DE2C12C41E0ADD47002E3C97 /* ElementView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElementView.swift; sourceTree = "<group>"; };
+		DE2C12C91E0ADE48002E3C97 /* ElementView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ElementView.xib; sourceTree = "<group>"; };
+		DE2C12CB1E0ADF28002E3C97 /* ElementCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ElementCollectionViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE2C12A71E0AD902002E3C97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE0FFEAB1E0AFE8200C663F3 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				DE0FFEA91E0AFE6400C663F3 /* APIManager.swift */,
+				DE13034E1E0AF739009CD62D /* DataController.swift */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		DE1303471E0AF454009CD62D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DE1303501E0AF7BB009CD62D /* Element+Extension.swift */,
+				DE1303441E0AF44D009CD62D /* Model.xcdatamodeld */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		DE2C12A11E0AD902002E3C97 = {
+			isa = PBXGroup;
+			children = (
+				DE2C12AC1E0AD902002E3C97 /* AC3.2-PeriodicTable */,
+				DE2C12AB1E0AD902002E3C97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE2C12AB1E0AD902002E3C97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE2C12AA1E0AD902002E3C97 /* AC3.2-PeriodicTable.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE2C12AC1E0AD902002E3C97 /* AC3.2-PeriodicTable */ = {
+			isa = PBXGroup;
+			children = (
+				DE0FFEAB1E0AFE8200C663F3 /* Managers */,
+				DE1303471E0AF454009CD62D /* Model */,
+				DE2C12C61E0ADD54002E3C97 /* Views */,
+				DE2C12C11E0AD9D3002E3C97 /* View Controllers */,
+				DE2C12C71E0ADD68002E3C97 /* UI Stuff */,
+				DE2C12C81E0ADD86002E3C97 /* Supporting Files */,
+			);
+			path = "AC3.2-PeriodicTable";
+			sourceTree = "<group>";
+		};
+		DE2C12C11E0AD9D3002E3C97 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DE2C12BF1E0AD9CB002E3C97 /* PeriodicTableCollectionViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		DE2C12C61E0ADD54002E3C97 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DE2C12C41E0ADD47002E3C97 /* ElementView.swift */,
+				DE2C12C21E0ADC4E002E3C97 /* ElementCollectionViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		DE2C12C71E0ADD68002E3C97 /* UI Stuff */ = {
+			isa = PBXGroup;
+			children = (
+				DE2C12B11E0AD902002E3C97 /* Main.storyboard */,
+				DE2C12C91E0ADE48002E3C97 /* ElementView.xib */,
+				DE2C12CB1E0ADF28002E3C97 /* ElementCollectionViewCell.xib */,
+				DE2C12B61E0AD902002E3C97 /* LaunchScreen.storyboard */,
+			);
+			name = "UI Stuff";
+			sourceTree = "<group>";
+		};
+		DE2C12C81E0ADD86002E3C97 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE2C12AD1E0AD902002E3C97 /* AppDelegate.swift */,
+				DE2C12B41E0AD902002E3C97 /* Assets.xcassets */,
+				DE2C12B91E0AD902002E3C97 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE2C12A91E0AD902002E3C97 /* AC3.2-PeriodicTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE2C12BC1E0AD902002E3C97 /* Build configuration list for PBXNativeTarget "AC3.2-PeriodicTable" */;
+			buildPhases = (
+				DE2C12A61E0AD902002E3C97 /* Sources */,
+				DE2C12A71E0AD902002E3C97 /* Frameworks */,
+				DE2C12A81E0AD902002E3C97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AC3.2-PeriodicTable";
+			productName = "AC3.2-PeriodicTable";
+			productReference = DE2C12AA1E0AD902002E3C97 /* AC3.2-PeriodicTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE2C12A21E0AD902002E3C97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "C4Q-3.2";
+				TargetAttributes = {
+					DE2C12A91E0AD902002E3C97 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DE2C12A51E0AD902002E3C97 /* Build configuration list for PBXProject "AC3.2-PeriodicTable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE2C12A11E0AD902002E3C97;
+			productRefGroup = DE2C12AB1E0AD902002E3C97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE2C12A91E0AD902002E3C97 /* AC3.2-PeriodicTable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE2C12A81E0AD902002E3C97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE2C12B81E0AD902002E3C97 /* LaunchScreen.storyboard in Resources */,
+				DE2C12CC1E0ADF28002E3C97 /* ElementCollectionViewCell.xib in Resources */,
+				DE2C12CA1E0ADE48002E3C97 /* ElementView.xib in Resources */,
+				DE2C12B51E0AD902002E3C97 /* Assets.xcassets in Resources */,
+				DE2C12B31E0AD902002E3C97 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE2C12A61E0AD902002E3C97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE0FFEAA1E0AFE6400C663F3 /* APIManager.swift in Sources */,
+				DE2C12C01E0AD9CB002E3C97 /* PeriodicTableCollectionViewController.swift in Sources */,
+				DE13034F1E0AF739009CD62D /* DataController.swift in Sources */,
+				DE2C12C51E0ADD47002E3C97 /* ElementView.swift in Sources */,
+				DE1303461E0AF44D009CD62D /* Model.xcdatamodeld in Sources */,
+				DE2C12C31E0ADC4E002E3C97 /* ElementCollectionViewCell.swift in Sources */,
+				DE1303511E0AF7BB009CD62D /* Element+Extension.swift in Sources */,
+				DE2C12AE1E0AD902002E3C97 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DE2C12B11E0AD902002E3C97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE2C12B21E0AD902002E3C97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE2C12B61E0AD902002E3C97 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE2C12B71E0AD902002E3C97 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE2C12BA1E0AD902002E3C97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE2C12BB1E0AD902002E3C97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE2C12BD1E0AD902002E3C97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "AC3.2-PeriodicTable/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "c4q.TomSeymour.AC3-2-PeriodicTable";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DE2C12BE1E0AD902002E3C97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "AC3.2-PeriodicTable/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "c4q.TomSeymour.AC3-2-PeriodicTable";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE2C12A51E0AD902002E3C97 /* Build configuration list for PBXProject "AC3.2-PeriodicTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE2C12BA1E0AD902002E3C97 /* Debug */,
+				DE2C12BB1E0AD902002E3C97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE2C12BC1E0AD902002E3C97 /* Build configuration list for PBXNativeTarget "AC3.2-PeriodicTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE2C12BD1E0AD902002E3C97 /* Debug */,
+				DE2C12BE1E0AD902002E3C97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DE1303441E0AF44D009CD62D /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DE1303451E0AF44D009CD62D /* Model.xcdatamodel */,
+			);
+			currentVersion = DE1303451E0AF44D009CD62D /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DE2C12A21E0AD902002E3C97 /* Project object */;
+}
