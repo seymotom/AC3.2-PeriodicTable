@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "994468E820D3635B48AE927D7D5D658C59D89972",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "994468E820D3635B48AE927D7D5D658C59D89972" : 9223372036854775807,
+    "44B6D0F476BCCD747AA766CF57FF5F6250198214" : 9223372036854775807,
+    "12744FD173829C75E5D3BBD285A46DD955DA8BD0" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A714D01D-C34C-463B-B435-CE2C3685465F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "994468E820D3635B48AE927D7D5D658C59D89972" : "AC3.2-PeriodicTable\/",
+    "44B6D0F476BCCD747AA766CF57FF5F6250198214" : "AC3.2-CoreDataArticles\/",
+    "12744FD173829C75E5D3BBD285A46DD955DA8BD0" : "AC3.2-MidtermElements\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "AC3.2-PeriodicTable",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "AC3.2-PeriodicTable\/AC3.2-PeriodicTable.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/seymotom\/AC3.2-MidtermElements.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "12744FD173829C75E5D3BBD285A46DD955DA8BD0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/seymotom\/AC3.2-CoreDataArticles.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "44B6D0F476BCCD747AA766CF57FF5F6250198214"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/seymotom\/AC3.2-PeriodicTable.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "994468E820D3635B48AE927D7D5D658C59D89972"
+    }
+  ]
+}
